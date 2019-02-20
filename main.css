@@ -41,6 +41,8 @@ h1 {
     padding: 107px 60px 0px;
     line-height: 36px;
     margin: 0px;
+    letter-spacing: 1px;
+    text-indent: -9px;
 }
 
 .banner p {
