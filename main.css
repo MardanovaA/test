@@ -35,14 +35,14 @@ h1 {
     padding-top: 20px;
     padding-left: 270px;
 }
-.banner h1 {
+.banner h1 {/*
     width: 200px;
     height: 84px;
     padding: 119px 60px 0px;
     line-height: 36px;
     margin: 0px;
     letter-spacing: 1px;
-    text-indent: -9px;
+    text-indent: -9px;*/
 }
 
 .banner p {
