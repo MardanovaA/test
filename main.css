@@ -1,15 +1,3 @@
-.main {
-    width: 200px;
-    height: 200px;
-    background-color: red;
-}
-
-@media (max-width: 320px) {
-    .main {
-        background-color: black;
-    }
-}
-
 h1 {
     font-style: Nunito Sans;
     font-weight: bold;
@@ -18,4 +6,15 @@ h1 {
 
 h2 {
     font-style: Nunito Sans;
+}
+
+.button {
+    font-style: Nunito Sans;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.group1{
+    background-color: black;
+    color: #FFFFFF;
 }
