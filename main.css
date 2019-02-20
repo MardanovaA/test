@@ -3,3 +3,9 @@
     height: 200px;
     background-color: red;
 }
+
+@media (max-width: 320px) {
+    .main {
+        background-color: black;
+    }
+}
