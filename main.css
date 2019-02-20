@@ -9,7 +9,7 @@ body {
 h1 {
     font-style: Nunito Sans;
     font-weight: bold;
-    font-size: 36;
+    font-size: 27px;
 }
 
 .button {
@@ -43,6 +43,8 @@ h1 {
     width: 170px;
     height: 37px;
     padding: 17px 75px 49px;
+    font-style: Montserrat;
+    font-size: 14;
 }
 .banner input {
     width: 134px;
