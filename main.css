@@ -3,7 +3,7 @@ body {
     /*margin: 0;
     padding: 0px;*/
     font-size: 14px;
-    font-family: "Montserrat", "Nunito Sans";
+    font-family: "Montserrat", "Nunito Sans", sans-serif;
   }
 
 h1 {
@@ -36,7 +36,7 @@ h1 {
 .banner h1 {
     width: 200px;
     height: 84px;
-    padding: 107px 60px 0px;
+    padding: 157px 60px 0px;
 }
 
 .banner p {
