@@ -3,7 +3,7 @@ body {
     /*margin: 0;
     padding: 0px;*/
     font-size: 14px;
-    font-family: "Montserrat", "Nunito Sans", sans-serif;
+    font-family: "Montserrat", "Nunito Sans";
   }
 
 h1 {
@@ -42,5 +42,11 @@ h1 {
 .banner p {
     width: 170px;
     height: 37px;
-    padding: 17px 75px 0px;
+    padding: 17px 75px 49px;
+}
+.banner input {
+    width: 134px;
+    height: 47px;
+    margin: 0px 93px;
+    padding: 12px 22px 11px;
 }
