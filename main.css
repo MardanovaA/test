@@ -1,5 +1,6 @@
 body {
     width: 320px;
+    height: 500px;
     font-size: 14px;
     font-family: "Montserrat", "Nunito Sans", sans-serif;
     margin: 0px;
@@ -10,10 +11,11 @@ h1 {
     font-family: "Nunito Sans", sans-serif;
     font-weight: bold;
     font-size: 36px;
+    margin: 0px;
 }
 
 .button {
-    font-style: "Nunito Sans";
+    font-family: "Montserrat";
     font-weight: bold;
     font-size: 18px;
 }
@@ -23,6 +25,7 @@ h1 {
     color: #FFFFFF;
     text-align: center;
     margin: 0px;
+    height: 500px;
 }
 
 .logo {
@@ -40,23 +43,59 @@ h1 {
     height: 84px;
     padding: 119px 60px 0px;
     line-height: 36px;
-    margin: 0px;
-    letter-spacing: 1px;
-    text-indent: -9px;
+    letter-spacing: 0.5px; /*Отступы между буквами*/
+    text-indent: -8px; /*первая строка*/
 }
 
 .banner p {
-    width: 170px;
+    width: 200px;
     height: 37px;
-    padding: 17px 75px 49px;
-    font-style: "Montserrat";
+    padding: 7px 60px 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1000;
     font-size: 14;
     margin: 0px;
 }
 .banner input {
+    font-family: "Montserrat";
+    font-size: 17.5px;
+    font-weight: 700;
     width: 134px;
     height: 47px;
     margin: 0px 93px;
-    padding: 12px 22px 11px;
+    padding: 12px 16px 11px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 35px;
+    background-color: #27AE61;
+}
+.ellipse {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+}
 
+.e1 {
+    left: 123px;
+    top: 475px;
+}
+
+.e2 {
+    left: 143px;
+    top: 475px;
+    background-color: #27AE61;
+    border-color: #27AE61;
+}
+
+.e3 {
+    left: 163px;
+    top: 475px;
+}
+
+.e4 {
+    left: 183px;
+    top: 475px;
 }
