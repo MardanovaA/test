@@ -1,8 +1,6 @@
 body {
     width: 320px;
-    height: 500px;
     font-size: 14px;
-    font-family: "Montserrat", "Nunito Sans", sans-serif;
     margin: 0px;
     padding: 0px;
   }
@@ -11,7 +9,22 @@ h1 {
     font-family: "Nunito Sans", sans-serif;
     font-weight: bold;
     font-size: 36px;
-    margin: 0px;
+    line-height: 36px;
+    letter-spacing: 0.5px; /*Отступы между буквами*/
+}   
+h2 {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.5px; /*Отступы между буквами*/
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
 }
 
 .button {
@@ -39,11 +52,10 @@ h1 {
     padding-left: 270px;
 }
 .banner h1 {
+    margin: 0;
     width: 200px;
     height: 84px;
     padding: 119px 60px 0px;
-    line-height: 36px;
-    letter-spacing: 0.5px; /*Отступы между буквами*/
     text-indent: -8px; /*первая строка*/
 }
 
@@ -51,10 +63,8 @@ h1 {
     width: 200px;
     height: 37px;
     padding: 7px 60px 48px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 1000;
-    font-size: 14;
     margin: 0px;
+    
 }
 .banner input {
     font-family: "Montserrat";
@@ -98,4 +108,28 @@ h1 {
 .e4 {
     left: 183px;
     top: 475px;
+}
+
+.group2 {
+    background-color: #FFFFFF;
+    margin: 0px 18px 0px;
+    height: ;
+}
+
+.group2 .photo{
+    width: 280px;
+    height: 280px;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+.education h2{
+    padding: 0px;
+    margin: 19px 0px 0px;
+}
+.education p {
+    margin: 18px 0px 0px;
+    padding: 0px;
+    width: 277px;
+    height: 144px;
+    color: #484848;
 }
